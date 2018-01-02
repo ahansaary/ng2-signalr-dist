@@ -140,7 +140,7 @@ var SignalRConnection = (function () {
             _this._zone.run(function () {
                 var /** @type {?} */ casted = null;
                 if (args.length > 0) {
-                    casted = /** @type {?} */ (args[0]);
+                    casted = /** @type {?} */ (args);
                 }
                 ;
                 _this.log('SignalRConnection.proxy.on invoked. Calling listener next() ...');
